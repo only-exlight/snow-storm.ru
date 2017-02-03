@@ -1,0 +1,1748 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+
+/*CSS RESET
+========================*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+.s12-no-m{
+    width: 100%;
+}
+  
+
+
+@media (min-width: 1200px) {
+    /*BLOCK SIZES
+============================*/
+    .s1-lg {
+        width: 8.333%;
+    }
+    .s2-lg {
+        width: 16.666%;
+    }
+    .s3-lg {
+        width: 25%;
+    }
+    .s4-lg {
+        width: 33.3333%;
+    }
+    .s5-lg {
+        width: 41.6666%;
+    }
+    .s6-lg {
+        width: 50%;
+    }
+    .s7-lg {
+        width: 58.33333%;
+    }
+    .s8-lg {
+        width: 66.66666%;
+    }
+    .s9-lg {
+        width: 75%;
+    }
+    .s10-lg {
+        width: 83.33333%;
+    }
+    .s11-lg {
+        width: 91.6666%;
+    }
+    .s12-lg {
+        width: 100%
+    }
+    /*
+CENTER BLOCK SIZE
+======================*/
+    .s1-c-lg {
+        width: 8.333%;
+        margin-left: 45.833%;
+    }
+    .s2-c-lg {
+        width: 16.666%;
+        margin-left: 41.667%;
+    }
+    .s3-c-lg {
+        width: 25%;
+        margin-left: 37.5%;
+    }
+    .s4-c-lg {
+        width: 33.3333%;
+        margin-left: 33.3333%;
+    }
+    .s5-c-lg {
+        width: 41.6666%;
+        margin-left: 29.167%;
+    }
+    .s6-c-lg {
+        width: 50%;
+        margin-left: 25%;
+    }
+    .s7-c-lg {
+        width: 58.33333%;
+        margin-left: 20.833%;
+    }
+    .s8-c-lg {
+        width: 66.66666%;
+        margin-left: 16.667%;
+    }
+    .s9-c-lg {
+        width: 75%;
+        margin-left: 12.5%;
+    }
+    .s10-c-lg {
+        width: 83.33333%;
+        margin-left: 8.3333%;
+    }
+    .s11-c-lg {
+        width: 91.6666%;
+        margin-left: 4.167%;
+    }
+    .s12-lg {
+        width: 100%;
+    }
+    /*
+MARGIN COLS FOR S1
+======================*/
+    .s1-mg-1-lg {
+        width: 8.333%;
+        margin-left: 8.333%;
+    }
+    .s1-mg-2-lg {
+        width: 8.333%;
+        margin-left: 16.666%
+    }
+    .s1-mg-3-lg {
+        width: 8.333%;
+        margin-left: 25%
+    }
+    .s1-mg-4-lg {
+        width: 8.333%;
+        margin-left: 33.3333%
+    }
+    .s1-mg-5-lg {
+        width: 8.333%;
+        margin-left: 41.6666%
+    }
+    .s1-mg-6-lg {
+        width: 8.333%;
+        margin-left: 50%;
+    }
+    .s1-mg-7-lg {
+        width: 8.333%;
+        margin-left: 58.33333%;
+    }
+    .s1-mg-8-lg {
+        width: 8.333%;
+        margin-left: 66.6666%;
+    }
+    .s1-mg-9 {
+        width: 8.333%;
+        margin-left: 75%
+    }
+    .s1-mg-10-lg {
+        width: 8.333%;
+        margin-left: 83.3333%
+    }
+    .s1-mg-11-lg {
+        width: 8.333%;
+        margin-left: 91.6666%
+    }
+    /*
+MARGIN COLS FOR S2
+======================*/
+    .s2-mg-1-lg {
+        width: 16.666%;
+        margin-left: 8.333%;
+    }
+    .s2-mg-2-lg {
+        width: 16.666%;
+        margin-left: 16.666%
+    }
+    .s2-mg-3-lg {
+        width: 16.666%;
+        margin-left: 25%
+    }
+    .s2-mg-4-lg {
+        width: 16.666%;
+        margin-left: 33.3333%
+    }
+    .s2-mg-5-lg {
+        width: 16.666%;
+        margin-left: 41.6666%
+    }
+    .s2-mg-6-lg {
+        width: 16.666%;
+        margin-left: 50%;
+    }
+    .s2-mg-7-lg {
+        width: 16.666%;
+        margin-left: 58.33333%;
+    }
+    .s2-mg-8-lg {
+        width: 16.666%;
+        margin-left: 66.6666%;
+    }
+    .s2-mg-9-lg {
+        width: 16.666%;
+        margin-left: 75%
+    }
+    .s2-mg-10-lg {
+        width: 16.666%;
+        margin-left: 83.3333%
+    }
+    /*
+MARGIN COLS FOR S3
+======================*/
+    .s3-mg-1-lg {
+        width: 25%;
+        margin-left: 8.333%;
+    }
+    .s3-mg-2-lg {
+        width: 25%;
+        margin-left: 16.666%
+    }
+    .s3-mg-3-lg {
+        width: 25%;
+        margin-left: 25%
+    }
+    .s3-mg-4-lg {
+        width: 25%;
+        margin-left: 33.3333%
+    }
+    .s3-mg-5-lg {
+        width: 25%;
+        margin-left: 41.6666%
+    }
+    .s3-mg-6-lg {
+        width: 25%;
+        margin-left: 50%;
+    }
+    .s3-mg-7-lg {
+        width: 25%;
+        margin-left: 58.33333%;
+    }
+    .s3-mg-8-lg {
+        width: 25%;
+        margin-left: 66.6666%;
+    }
+    .s3-mg-9-lg {
+        width: 25%;
+        margin-left: 75%
+    }
+    /*
+MARGIN COLS FOR S4
+======================*/
+    .s4-mg-1-lg {
+        width: 33.3333%;
+        margin-left: 8.333%;
+    }
+    .s4-mg-2-lg {
+        width: 33.3333%;
+        margin-left: 16.666%
+    }
+    .s4-mg-3-lg {
+        width: 33.3333%;
+        margin-left: 25%
+    }
+    .s4-mg-4-lg {
+        width: 33.3333%;
+        margin-left: 33.3333%
+    }
+    .s4-mg-5-lg {
+        width: 33.3333%;
+        margin-left: 41.6666%
+    }
+    .s4-mg-6-lg {
+        width: 33.3333%;
+        margin-left: 50%;
+    }
+    .s4-mg-7-lg {
+        width: 33.3333%;
+        margin-left: 58.33333%;
+    }
+    .s4-mg-8-lg {
+        width: 33.3333%;
+        margin-left: 66.6666%;
+    }
+    /*
+MARGIN COLS FOR S5
+======================*/
+    .s5-mg-1-lg {
+        width: 41.6666%;
+        margin-left: 8.333%;
+    }
+    .s5-mg-2-lg {
+        width: 41.6666%;
+        margin-left: 16.666%
+    }
+    .s5-mg-3-lg {
+        width: 41.6666%;
+        margin-left: 25%
+    }
+    .s5-mg-4-lg {
+        width: 41.6666%;
+        margin-left: 33.3333%
+    }
+    .s5-mg-5-lg {
+        width: 41.6666%;
+        margin-left: 41.6666%
+    }
+    .s5-mg-6-lg {
+        width: 41.6666%;
+        margin-left: 50%;
+    }
+    .s5-mg-7-lg {
+        width: 41.6666%;
+        margin-left: 58.33333%;
+    }
+    /*
+MARGIN COLS FOR S6
+======================*/
+    .s6-mg-1-lg {
+        width: 50%;
+        margin-left: 8.333%;
+    }
+    .s6-mg-2-lg {
+        width: 50%;
+        margin-left: 16.666%
+    }
+    .s6-mg-3-lg {
+        width: 50%;
+        margin-left: 25%
+    }
+    .s6-mg-4-lg {
+        width: 50%;
+        margin-left: 33.3333%
+    }
+    .s6-mg-5-lg {
+        width: 50%;
+        margin-left: 41.6666%
+    }
+    .s6-mg-6-lg {
+        width: 50%;
+        margin-left: 50%;
+    }
+    /*
+MARGIN COLS FOR S7
+======================*/
+    .s7-mg-1-lg {
+        width: 58.33333%;
+        margin-left: 8.333%;
+    }
+    .s7-mg-2-lg {
+        width: 58.33333%;
+        margin-left: 16.666%
+    }
+    .s7-mg-3-lg {
+        width: 58.33333%;
+        margin-left: 25%
+    }
+    .s7-mg-4-lg {
+        width: 58.33333%;
+        margin-left: 33.3333%
+    }
+    .s7-mg-5-lg {
+        width: 58.33333%;
+        margin-left: 41.6666%
+    }
+    /*
+MARGIN COLS FOR S8
+======================*/
+    .s8-mg-1-lg {
+        width: 66.66666%;
+        margin-left: 8.333%;
+    }
+    .s8-mg-2-lg {
+        width: 66.66666%;
+        margin-left: 16.666%
+    }
+    .s8-mg-3-lg {
+        width: 66.66666%;
+        margin-left: 25%
+    }
+    .s8-mg-4-lg {
+        width: 66.66666%;
+        margin-left: 33.3333%
+    }
+    /*
+MARGIN COLS FOR S9
+======================*/
+    .s9-mg-1-lg {
+        width: 75%;
+        margin-left: 8.333%;
+    }
+    .s9-mg-2-lg {
+        width: 75%;
+        margin-left: 16.666%
+    }
+    .s9-mg-3-lg {
+        width: 75%;
+        margin-left: 25%
+    }
+    /*
+MARGIN COLS FOR S10
+======================*/
+    .s10-mg-1-lg {
+        width: 83.33333%;
+        margin-left: 8.333%;
+    }
+    .s10-mg-2-lg {
+        width: 83.33333%;
+        margin-left: 16.666%
+    }
+    /*
+MARGIN COLS FOR S11
+======================*/
+    .s11-mg-1-lg {
+        width: 91.6666%;
+        margin-left: 8.333%;
+    }
+}
+
+
+/*
+MEDIA FOR MEDIUM DEVICE
+=====================*/
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    /*BLOCK SIZES
+============================*/
+    .s1-md {
+        width: 8.333%;
+    }
+    .s2-md {
+        width: 16.666%;
+    }
+    .s3-md {
+        width: 25%;
+    }
+    .s4-md {
+        width: 33.3333%;
+    }
+    .s5-md {
+        width: 41.6666%;
+    }
+    .s6-md {
+        width: 50%;
+    }
+    .s7-md {
+        width: 58.33333%;
+    }
+    .s8-md {
+        width: 66.66666%;
+    }
+    .s9-md {
+        width: 75%;
+    }
+    .s10-md {
+        width: 83.33333%;
+    }
+    .s11-md {
+        width: 91.6666%;
+    }
+    .s12-md {
+        width: 100%
+    }
+    /*
+CENTER BLOCK SIZE
+======================*/
+    .s1-c-md {
+        width: 8.333%;
+        margin-left: 45.833%;
+    }
+    .s2-c-md {
+        width: 16.666%;
+        margin-left: 41.667%;
+    }
+    .s3-c-md {
+        width: 25%;
+        margin-left: 37.5%;
+    }
+    .s4-c-md {
+        width: 33.3333%;
+        margin-left: 33.3333%;
+    }
+    .s5-c-md {
+        width: 41.6666%;
+        margin-left: 29.167%;
+    }
+    .s6-c-md {
+        width: 50%;
+        margin-left: 25%;
+    }
+    .s7-c-md {
+        width: 58.33333%;
+        margin-left: 20.833%;
+    }
+    .s8-c-md {
+        width: 66.66666%;
+        margin-left: 16.667%;
+    }
+    .s9-c-md {
+        width: 75%;
+        margin-left: 12.5%;
+    }
+    .s10-c-md {
+        width: 83.33333%;
+        margin-left: 8.3333%;
+    }
+    .s11-c-md {
+        width: 91.6666%;
+        margin-left: 4.167%;
+    }
+    .s12-md {
+        width: 100%;
+    }
+    /*
+MARGIN COLS FOR S1
+======================*/
+    .s1-mg-1-md {
+        width: 8.333%;
+        margin-left: 8.333%;
+    }
+    .s1-mg-2-md {
+        width: 8.333%;
+        margin-left: 16.666%
+    }
+    .s1-mg-3-md {
+        width: 8.333%;
+        margin-left: 25%
+    }
+    .s1-mg-4-md {
+        width: 8.333%;
+        margin-left: 33.3333%
+    }
+    .s1-mg-5-md {
+        width: 8.333%;
+        margin-left: 41.6666%
+    }
+    .s1-mg-6-md {
+        width: 8.333%;
+        margin-left: 50%;
+    }
+    .s1-mg-7-md {
+        width: 8.333%;
+        margin-left: 58.33333%;
+    }
+    .s1-mg-8-md {
+        width: 8.333%;
+        margin-left: 66.6666%;
+    }
+    .s1-mg-9-md {
+        width: 8.333%;
+        margin-left: 75%
+    }
+    .s1-mg-10-md {
+        width: 8.333%;
+        margin-left: 83.3333%
+    }
+    .s1-mg-11-md {
+        width: 8.333%;
+        margin-left: 91.6666%
+    }
+    /*
+MARGIN COLS FOR S2
+======================*/
+    .s2-mg-1-md {
+        width: 16.666%;
+        margin-left: 8.333%;
+    }
+    .s2-mg-2-md {
+        width: 16.666%;
+        margin-left: 16.666%
+    }
+    .s2-mg-3-md {
+        width: 16.666%;
+        margin-left: 25%
+    }
+    .s2-mg-4-md {
+        width: 16.666%;
+        margin-left: 33.3333%
+    }
+    .s2-mg-5-md {
+        width: 16.666%;
+        margin-left: 41.6666%
+    }
+    .s2-mg-6-md {
+        width: 16.666%;
+        margin-left: 50%;
+    }
+    .s2-mg-7-md {
+        width: 16.666%;
+        margin-left: 58.33333%;
+    }
+    .s2-mg-8-md {
+        width: 16.666%;
+        margin-left: 66.6666%;
+    }
+    .s2-mg-9-md {
+        width: 16.666%;
+        margin-left: 75%
+    }
+    .s2-mg-10-md {
+        width: 16.666%;
+        margin-left: 83.3333%
+    }
+    /*
+MARGIN COLS FOR S3
+======================*/
+    .s3-mg-1-md {
+        width: 25%;
+        margin-left: 8.333%;
+    }
+    .s3-mg-2-md {
+        width: 25%;
+        margin-left: 16.666%
+    }
+    .s3-mg-3-md {
+        width: 25%;
+        margin-left: 25%
+    }
+    .s3-mg-4-md {
+        width: 25%;
+        margin-left: 33.3333%
+    }
+    .s3-mg-5-md {
+        width: 25%;
+        margin-left: 41.6666%
+    }
+    .s3-mg-6-md {
+        width: 25%;
+        margin-left: 50%;
+    }
+    .s3-mg-7-md {
+        width: 25%;
+        margin-left: 58.33333%;
+    }
+    .s3-mg-8-md {
+        width: 25%;
+        margin-left: 66.6666%;
+    }
+    .s3-mg-9-md {
+        width: 25%;
+        margin-left: 75%
+    }
+    /*
+MARGIN COLS FOR S4
+======================*/
+    .s4-mg-1-md {
+        width: 33.3333%;
+        margin-left: 8.333%;
+    }
+    .s4-mg-2-md {
+        width: 33.3333%;
+        margin-left: 16.666%
+    }
+    .s4-mg-3-md {
+        width: 33.3333%;
+        margin-left: 25%
+    }
+    .s4-mg-4-md {
+        width: 33.3333%;
+        margin-left: 33.3333%
+    }
+    .s4-mg-5-md {
+        width: 33.3333%;
+        margin-left: 41.6666%
+    }
+    .s4-mg-6-md {
+        width: 33.3333%;
+        margin-left: 50%;
+    }
+    .s4-mg-7-md {
+        width: 33.3333%;
+        margin-left: 58.33333%;
+    }
+    .s4-mg-8-md {
+        width: 33.3333%;
+        margin-left: 66.6666%;
+    }
+    /*
+MARGIN COLS FOR S5
+======================*/
+    .s5-mg-1-md {
+        width: 41.6666%;
+        margin-left: 8.333%;
+    }
+    .s5-mg-2-md {
+        width: 41.6666%;
+        margin-left: 16.666%
+    }
+    .s5-mg-3-md {
+        width: 41.6666%;
+        margin-left: 25%
+    }
+    .s5-mg-4-md {
+        width: 41.6666%;
+        margin-left: 33.3333%
+    }
+    .s5-mg-5-md {
+        width: 41.6666%;
+        margin-left: 41.6666%
+    }
+    .s5-mg-6-md {
+        width: 41.6666%;
+        margin-left: 50%;
+    }
+    .s5-mg-7-md {
+        width: 41.6666%;
+        margin-left: 58.33333%;
+    }
+    /*
+MARGIN COLS FOR S6
+======================*/
+    .s6-mg-1-md {
+        width: 50%;
+        margin-left: 8.333%;
+    }
+    .s6-mg-2-md {
+        width: 50%;
+        margin-left: 16.666%
+    }
+    .s6-mg-3-md {
+        width: 50%;
+        margin-left: 25%
+    }
+    .s6-mg-4-md {
+        width: 50%;
+        margin-left: 33.3333%
+    }
+    .s6-mg-5-md {
+        width: 50%;
+        margin-left: 41.6666%
+    }
+    .s6-mg-6-md {
+        width: 50%;
+        margin-left: 50%;
+    }
+    /*
+MARGIN COLS FOR S7
+======================*/
+    .s7-mg-1-md {
+        width: 58.33333%;
+        margin-left: 8.333%;
+    }
+    .s7-mg-2-md {
+        width: 58.33333%;
+        margin-left: 16.666%
+    }
+    .s7-mg-3-md {
+        width: 58.33333%;
+        margin-left: 25%
+    }
+    .s7-mg-4-md {
+        width: 58.33333%;
+        margin-left: 33.3333%
+    }
+    .s7-mg-5-md {
+        width: 58.33333%;
+        margin-left: 41.6666%
+    }
+    /*
+MARGIN COLS FOR S8
+======================*/
+    .s8-mg-1-md {
+        width: 66.66666%;
+        margin-left: 8.333%;
+    }
+    .s8-mg-2-md {
+        width: 66.66666%;
+        margin-left: 16.666%
+    }
+    .s8-mg-3-md {
+        width: 66.66666%;
+        margin-left: 25%
+    }
+    .s8-mg-4-md {
+        width: 66.66666%;
+        margin-left: 33.3333%
+    }
+    /*
+MARGIN COLS FOR S9
+======================*/
+    .s9-mg-1-md {
+        width: 75%;
+        margin-left: 8.333%;
+    }
+    .s9-mg-2-md {
+        width: 75%;
+        margin-left: 16.666%
+    }
+    .s9-mg-3-md {
+        width: 75%;
+        margin-left: 25%
+    }
+    /*
+MARGIN COLS FOR S10
+======================*/
+    .s10-mg-1-md {
+        width: 83.33333%;
+        margin-left: 8.333%;
+    }
+    .s10-mg-2-md {
+        width: 83.33333%;
+        margin-left: 16.666%
+    }
+    /*
+MARGIN COLS FOR S11
+======================*/
+    .s11-mg-1-md {
+        width: 91.6666%;
+        margin-left: 8.333%;
+    }
+}
+
+
+/*
+MEDIA FOR SMALL DEVICE
+=========================*/
+
+@media (min-width: 768px) and (max-width: 991px) {
+    /*BLOCK SIZES
+============================*/
+    .s1-sm {
+        width: 8.333%;
+    }
+    .s2-sm {
+        width: 16.666%;
+    }
+    .s3-sm {
+        width: 25%;
+    }
+    .s4-sm {
+        width: 33.3333%;
+    }
+    .s5-sm {
+        width: 41.6666%;
+    }
+    .s6-sm {
+        width: 50%;
+    }
+    .s7-sm {
+        width: 58.33333%;
+    }
+    .s8-sm {
+        width: 66.66666%;
+    }
+    .s9-sm {
+        width: 75%;
+    }
+    .s10-sm {
+        width: 83.33333%;
+    }
+    .s11-sm {
+        width: 91.6666%;
+    }
+    .s12-sm {
+        width: 100%
+    }
+    /*
+CENTER BLOCK SIZE
+======================*/
+    .s1-c-sm {
+        width: 8.333%;
+        margin-left: 45.833%;
+    }
+    .s2-c-sm {
+        width: 16.666%;
+        margin-left: 41.667%;
+    }
+    .s3-c-sm {
+        width: 25%;
+        margin-left: 37.5%;
+    }
+    .s4-c {
+        width: 33.3333%;
+        margin-left: 33.3333%;
+    }
+    .s5-c-sm {
+        width: 41.6666%;
+        margin-left: 29.167%;
+    }
+    .s6-c-sm {
+        width: 50%;
+        margin-left: 25%;
+    }
+    .s7-c-sm {
+        width: 58.33333%;
+        margin-left: 20.833%;
+    }
+    .s8-c-sm {
+        width: 66.66666%;
+        margin-left: 16.667%;
+    }
+    .s9-c-sm {
+        width: 75%;
+        margin-left: 12.5%;
+    }
+    .s10-c-sm {
+        width: 83.33333%;
+        margin-left: 8.3333%;
+    }
+    .s11-c-sm {
+        width: 91.6666%;
+        margin-left: 4.167%;
+    }
+    .s12-sm {
+        width: 100%;
+    }
+    /*
+MARGIN COLS FOR S1
+======================*/
+    .s1-mg-1-sm {
+        width: 8.333%;
+        margin-left: 8.333%;
+    }
+    .s1-mg-2-sm {
+        width: 8.333%;
+        margin-left: 16.666%
+    }
+    .s1-mg-3-sm {
+        width: 8.333%;
+        margin-left: 25%
+    }
+    .s1-mg-4-sm {
+        width: 8.333%;
+        margin-left: 33.3333%
+    }
+    .s1-mg-5-sm {
+        width: 8.333%;
+        margin-left: 41.6666%
+    }
+    .s1-mg-6-sm {
+        width: 8.333%;
+        margin-left: 50%;
+    }
+    .s1-mg-7-sm {
+        width: 8.333%;
+        margin-left: 58.33333%;
+    }
+    .s1-mg-8-sm {
+        width: 8.333%;
+        margin-left: 66.6666%;
+    }
+    .s1-mg-9-sm {
+        width: 8.333%;
+        margin-left: 75%
+    }
+    .s1-mg-10-sm {
+        width: 8.333%;
+        margin-left: 83.3333%
+    }
+    .s1-mg-11-sm {
+        width: 8.333%;
+        margin-left: 91.6666%
+    }
+    /*
+MARGIN COLS FOR S2
+======================*/
+    .s2-mg-1-sm {
+        width: 16.666%;
+        margin-left: 8.333%;
+    }
+    .s2-mg-2-sm {
+        width: 16.666%;
+        margin-left: 16.666%
+    }
+    .s2-mg-3-sm {
+        width: 16.666%;
+        margin-left: 25%
+    }
+    .s2-mg-4-sm {
+        width: 16.666%;
+        margin-left: 33.3333%
+    }
+    .s2-mg-5-sm {
+        width: 16.666%;
+        margin-left: 41.6666%
+    }
+    .s2-mg-6-sm {
+        width: 16.666%;
+        margin-left: 50%;
+    }
+    .s2-mg-7-sm {
+        width: 16.666%;
+        margin-left: 58.33333%;
+    }
+    .s2-mg-8-sm {
+        width: 16.666%;
+        margin-left: 66.6666%;
+    }
+    .s2-mg-9-sm {
+        width: 16.666%;
+        margin-left: 75%
+    }
+    .s2-mg-10-sm {
+        width: 16.666%;
+        margin-left: 83.3333%
+    }
+    /*
+MARGIN COLS FOR S3
+======================*/
+    .s3-mg-1-sm {
+        width: 25%;
+        margin-left: 8.333%;
+    }
+    .s3-mg-2-sm {
+        width: 25%;
+        margin-left: 16.666%
+    }
+    .s3-mg-3-sm {
+        width: 25%;
+        margin-left: 25%
+    }
+    .s3-mg-4-sm {
+        width: 25%;
+        margin-left: 33.3333%
+    }
+    .s3-mg-5-sm {
+        width: 25%;
+        margin-left: 41.6666%
+    }
+    .s3-mg-6-sm {
+        width: 25%;
+        margin-left: 50%;
+    }
+    .s3-mg-7-sm {
+        width: 25%;
+        margin-left: 58.33333%;
+    }
+    .s3-mg-8-sm {
+        width: 25%;
+        margin-left: 66.6666%;
+    }
+    .s3-mg-9-sm {
+        width: 25%;
+        margin-left: 75%
+    }
+    /*
+MARGIN COLS FOR S4
+======================*/
+    .s4-mg-1-sm {
+        width: 33.3333%;
+        margin-left: 8.333%;
+    }
+    .s4-mg-2-sm {
+        width: 33.3333%;
+        margin-left: 16.666%
+    }
+    .s4-mg-3-sm {
+        width: 33.3333%;
+        margin-left: 25%
+    }
+    .s4-mg-4-sm {
+        width: 33.3333%;
+        margin-left: 33.3333%
+    }
+    .s4-mg-5-sm {
+        width: 33.3333%;
+        margin-left: 41.6666%
+    }
+    .s4-mg-6-sm {
+        width: 33.3333%;
+        margin-left: 50%;
+    }
+    .s4-mg-7-sm {
+        width: 33.3333%;
+        margin-left: 58.33333%;
+    }
+    .s4-mg-8-sm {
+        width: 33.3333%;
+        margin-left: 66.6666%;
+    }
+    /*
+MARGIN COLS FOR S5
+======================*/
+    .s5-mg-1-sm {
+        width: 41.6666%;
+        margin-left: 8.333%;
+    }
+    .s5-mg-2-sm {
+        width: 41.6666%;
+        margin-left: 16.666%
+    }
+    .s5-mg-3 {
+        width: 41.6666%;
+        margin-left: 25%
+    }
+    .s5-mg-4-sm {
+        width: 41.6666%;
+        margin-left: 33.3333%
+    }
+    .s5-mg-5-sm {
+        width: 41.6666%;
+        margin-left: 41.6666%
+    }
+    .s5-mg-6-sm {
+        width: 41.6666%;
+        margin-left: 50%;
+    }
+    .s5-mg-7-sm {
+        width: 41.6666%;
+        margin-left: 58.33333%;
+    }
+    /*
+MARGIN COLS FOR S6
+======================*/
+    .s6-mg-1-sm {
+        width: 50%;
+        margin-left: 8.333%;
+    }
+    .s6-mg-2-sm {
+        width: 50%;
+        margin-left: 16.666%
+    }
+    .s6-mg-3-sm {
+        width: 50%;
+        margin-left: 25%
+    }
+    .s6-mg-4-sm {
+        width: 50%;
+        margin-left: 33.3333%
+    }
+    .s6-mg-5-sm {
+        width: 50%;
+        margin-left: 41.6666%
+    }
+    .s6-mg-6-sm {
+        width: 50%;
+        margin-left: 50%;
+    }
+    /*
+MARGIN COLS FOR S7
+======================*/
+    .s7-mg-1-sm {
+        width: 58.33333%;
+        margin-left: 8.333%;
+    }
+    .s7-mg-2-sm {
+        width: 58.33333%;
+        margin-left: 16.666%
+    }
+    .s7-mg-3-sm {
+        width: 58.33333%;
+        margin-left: 25%
+    }
+    .s7-mg-4-sm {
+        width: 58.33333%;
+        margin-left: 33.3333%
+    }
+    .s7-mg-5-sm {
+        width: 58.33333%;
+        margin-left: 41.6666%
+    }
+    /*
+MARGIN COLS FOR S8
+======================*/
+    .s8-mg-1-sm {
+        width: 66.66666%;
+        margin-left: 8.333%;
+    }
+    .s8-mg-2-sm {
+        width: 66.66666%;
+        margin-left: 16.666%
+    }
+    .s8-mg-3-sm {
+        width: 66.66666%;
+        margin-left: 25%
+    }
+    .s8-mg-4-sm {
+        width: 66.66666%;
+        margin-left: 33.3333%
+    }
+    /*
+MARGIN COLS FOR S9
+======================*/
+    .s9-mg-1-sm {
+        width: 75%;
+        margin-left: 8.333%;
+    }
+    .s9-mg-2-sm {
+        width: 75%;
+        margin-left: 16.666%
+    }
+    .s9-mg-3-sm {
+        width: 75%;
+        margin-left: 25%
+    }
+    /*
+MARGIN COLS FOR S10
+======================*/
+    .s10-mg-1-sm {
+        width: 83.33333%;
+        margin-left: 8.333%;
+    }
+    .s10-mg-2-sm {
+        width: 83.33333%;
+        margin-left: 16.666%
+    }
+    /*
+MARGIN COLS FOR S11
+======================*/
+    .s11-mg-1-sm {
+        width: 91.6666%;
+        margin-left: 8.333%;
+    }
+}
+
+
+/*
+MEDIA FOR EXTRA-SMALL DEVICE
+===============================*/
+
+@media (max-width: 768px) {
+    /*BLOCK SIZES
+============================*/
+    .s1-xs {
+        width: 8.333%;
+    }
+    .s2-xs {
+        width: 16.666%;
+    }
+    .s3-xs {
+        width: 25%;
+    }
+    .s4-xs {
+        width: 33.3333%;
+    }
+    .s5-xs {
+        width: 41.6666%;
+    }
+    .s6-xs {
+        width: 50%;
+    }
+    .s7-xs {
+        width: 58.33333%;
+    }
+    .s8-xs {
+        width: 66.66666%;
+    }
+    .s9-xs {
+        width: 75%;
+    }
+    .s10-xs {
+        width: 83.33333%;
+    }
+    .s11-xs {
+        width: 91.6666%;
+    }
+    .s12-xs {
+        width: 100%
+    }
+    /*
+CENTER BLOCK SIZE
+======================*/
+    .s1-c-xs {
+        width: 8.333%;
+        margin-left: 45.833%;
+    }
+    .s2-c-xs {
+        width: 16.666%;
+        margin-left: 41.667%;
+    }
+    .s3-c-xs {
+        width: 25%;
+        margin-left: 37.5%;
+    }
+    .s4-c-xs {
+        width: 33.3333%;
+        margin-left: 33.3333%;
+    }
+    .s5-c-xs {
+        width: 41.6666%;
+        margin-left: 29.167%;
+    }
+    .s6-c-xs {
+        width: 50%;
+        margin-left: 25%;
+    }
+    .s7-c-xs {
+        width: 58.33333%;
+        margin-left: 20.833%;
+    }
+    .s8-c-xs {
+        width: 66.66666%;
+        margin-left: 16.667%;
+    }
+    .s9-c-xs {
+        width: 75%;
+        margin-left: 12.5%;
+    }
+    .s10-c-xs {
+        width: 83.33333%;
+        margin-left: 8.3333%;
+    }
+    .s11-c-xs {
+        width: 91.6666%;
+        margin-left: 4.167%;
+    }
+    .s12-xs {
+        width: 100%;
+    }
+    /*
+MARGIN COLS FOR S1
+======================*/
+    .s1-mg-1-xs {
+        width: 8.333%;
+        margin-left: 8.333%;
+    }
+    .s1-mg-2-xs {
+        width: 8.333%;
+        margin-left: 16.666%
+    }
+    .s1-mg-3-xs {
+        width: 8.333%;
+        margin-left: 25%
+    }
+    .s1-mg-4-xs {
+        width: 8.333%;
+        margin-left: 33.3333%
+    }
+    .s1-mg-5-xs {
+        width: 8.333%;
+        margin-left: 41.6666%
+    }
+    .s1-mg-6-xs {
+        width: 8.333%;
+        margin-left: 50%;
+    }
+    .s1-mg-7-xs {
+        width: 8.333%;
+        margin-left: 58.33333%;
+    }
+    .s1-mg-8-xs {
+        width: 8.333%;
+        margin-left: 66.6666%;
+    }
+    .s1-mg-9-xs {
+        width: 8.333%;
+        margin-left: 75%
+    }
+    .s1-mg-10-xs {
+        width: 8.333%;
+        margin-left: 83.3333%
+    }
+    .s1-mg-11-xs {
+        width: 8.333%;
+        margin-left: 91.6666%
+    }
+    /*
+MARGIN COLS FOR S2
+======================*/
+    .s2-mg-1-xs {
+        width: 16.666%;
+        margin-left: 8.333%;
+    }
+    .s2-mg-2-xs {
+        width: 16.666%;
+        margin-left: 16.666%
+    }
+    .s2-mg-3-xs {
+        width: 16.666%;
+        margin-left: 25%
+    }
+    .s2-mg-4-xs {
+        width: 16.666%;
+        margin-left: 33.3333%
+    }
+    .s2-mg-5-xs {
+        width: 16.666%;
+        margin-left: 41.6666%
+    }
+    .s2-mg-6-xs {
+        width: 16.666%;
+        margin-left: 50%;
+    }
+    .s2-mg-7-xs {
+        width: 16.666%;
+        margin-left: 58.33333%;
+    }
+    .s2-mg-8-xs {
+        width: 16.666%;
+        margin-left: 66.6666%;
+    }
+    .s2-mg-9-xs {
+        width: 16.666%;
+        margin-left: 75%
+    }
+    .s2-mg-10-xs {
+        width: 16.666%;
+        margin-left: 83.3333%
+    }
+    /*
+MARGIN COLS FOR S3
+======================*/
+    .s3-mg-1-xs {
+        width: 25%;
+        margin-left: 8.333%;
+    }
+    .s3-mg-2-xs {
+        width: 25%;
+        margin-left: 16.666%
+    }
+    .s3-mg-3-xs {
+        width: 25%;
+        margin-left: 25%
+    }
+    .s3-mg-4-xs {
+        width: 25%;
+        margin-left: 33.3333%
+    }
+    .s3-mg-5-xs {
+        width: 25%;
+        margin-left: 41.6666%
+    }
+    .s3-mg-6-xs {
+        width: 25%;
+        margin-left: 50%;
+    }
+    .s3-mg-7-xs {
+        width: 25%;
+        margin-left: 58.33333%;
+    }
+    .s3-mg-8-xs {
+        width: 25%;
+        margin-left: 66.6666%;
+    }
+    .s3-mg-9-xs {
+        width: 25%;
+        margin-left: 75%
+    }
+    /*
+MARGIN COLS FOR S4
+======================*/
+    .s4-mg-1-xs {
+        width: 33.3333%;
+        margin-left: 8.333%;
+    }
+    .s4-mg-2-xs {
+        width: 33.3333%;
+        margin-left: 16.666%
+    }
+    .s4-mg-3-xs {
+        width: 33.3333%;
+        margin-left: 25%
+    }
+    .s4-mg-4-xs {
+        width: 33.3333%;
+        margin-left: 33.3333%
+    }
+    .s4-mg-5-xs {
+        width: 33.3333%;
+        margin-left: 41.6666%
+    }
+    .s4-mg-6-xs {
+        width: 33.3333%;
+        margin-left: 50%;
+    }
+    .s4-mg-7-xs {
+        width: 33.3333%;
+        margin-left: 58.33333%;
+    }
+    .s4-mg-8-xs {
+        width: 33.3333%;
+        margin-left: 66.6666%;
+    }
+    /*
+MARGIN COLS FOR S5
+======================*/
+    .s5-mg-1-xs {
+        width: 41.6666%;
+        margin-left: 8.333%;
+    }
+    .s5-mg-2-xs {
+        width: 41.6666%;
+        margin-left: 16.666%
+    }
+    .s5-mg-3-xs {
+        width: 41.6666%;
+        margin-left: 25%
+    }
+    .s5-mg-4-xs {
+        width: 41.6666%;
+        margin-left: 33.3333%
+    }
+    .s5-mg-5-xs {
+        width: 41.6666%;
+        margin-left: 41.6666%
+    }
+    .s5-mg-6-xs {
+        width: 41.6666%;
+        margin-left: 50%;
+    }
+    .s5-mg-7-xs {
+        width: 41.6666%;
+        margin-left: 58.33333%;
+    }
+    /*
+MARGIN COLS FOR S6
+======================*/
+    .s6-mg-1-xs {
+        width: 50%;
+        margin-left: 8.333%;
+    }
+    .s6-mg-2-xs {
+        width: 50%;
+        margin-left: 16.666%
+    }
+    .s6-mg-3-xs {
+        width: 50%;
+        margin-left: 25%
+    }
+    .s6-mg-4-xs {
+        width: 50%;
+        margin-left: 33.3333%
+    }
+    .s6-mg-5-xs {
+        width: 50%;
+        margin-left: 41.6666%
+    }
+    .s6-mg-6-xs {
+        width: 50%;
+        margin-left: 50%;
+    }
+    /*
+MARGIN COLS FOR S7
+======================*/
+    .s7-mg-1-xs {
+        width: 58.33333%;
+        margin-left: 8.333%;
+    }
+    .s7-mg-2-xs {
+        width: 58.33333%;
+        margin-left: 16.666%
+    }
+    .s7-mg-3-xs {
+        width: 58.33333%;
+        margin-left: 25%
+    }
+    .s7-mg-4-xs {
+        width: 58.33333%;
+        margin-left: 33.3333%
+    }
+    .s7-mg-5-xs {
+        width: 58.33333%;
+        margin-left: 41.6666%
+    }
+    /*
+MARGIN COLS FOR S8
+======================*/
+    .s8-mg-1-xs {
+        width: 66.66666%;
+        margin-left: 8.333%;
+    }
+    .s8-mg-2-xs {
+        width: 66.66666%;
+        margin-left: 16.666%
+    }
+    .s8-mg-3-xs {
+        width: 66.66666%;
+        margin-left: 25%
+    }
+    .s8-mg-4-xs {
+        width: 66.66666%;
+        margin-left: 33.3333%
+    }
+    /*
+MARGIN COLS FOR S9
+======================*/
+    .s9-mg-1-xs {
+        width: 75%;
+        margin-left: 8.333%;
+    }
+    .s9-mg-2-xs {
+        width: 75%;
+        margin-left: 16.666%
+    }
+    .s9-mg-3-xs {
+        width: 75%;
+        margin-left: 25%
+    }
+    /*
+MARGIN COLS FOR S10
+======================*/
+    .s10-mg-1-xs {
+        width: 83.33333%;
+        margin-left: 8.333%;
+    }
+    .s10-mg-2-xs {
+        width: 83.33333%;
+        margin-left: 16.666%
+    }
+    /*
+MARGIN COLS FOR S11
+======================*/
+    .s11-mg-1-xs {
+        width: 91.6666%;
+        margin-left: 8.333%;
+    }
+}
+
+
+/*WRAPPERS
+===============================*/
+
+.wrapper {
+    margin: auto;
+}
+
+.wrapper-free {
+    width: 90%;
+    margin: auto;
+}
+
+
+/*
+COLUMNS AND ROWS
+=====================*/
+
+.row {
+    font-size: 0;
+    padding: 0px 0;
+}
+
+.col {
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+    padding: 0 10px;
+}
+
+
+/*ITEMS
+===========================*/
+
+.item {
+    display: inline-block;
+    overflow: hidden;
+    margin: 0px 0px 10px 10px;
+    font-size: 16px;
+}
+
+
+/*
+TEXT STYLE
+=====================*/
+
+.t-c {
+    text-align: center;
+}
+
+.t-r {
+    text-align: right;
+}
+
+.block-right {
+    float: right;
+}
+
+.secret {
+    display: none;
+}
+
