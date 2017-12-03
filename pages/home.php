@@ -2,13 +2,17 @@
     <div class="row t-c">
         <div id="slider">
             <div id="slText">
-                <span>Минуточку... Скоро здесь что то появится!<br><i class="fa fa-snowflake-o fa-2x" id="loading" aria-hidden="true"></i></span>
+                <h1 id="slide-title">Загружаем!</h1>
+                <div id="slide-discription"></div>
+                <div id="slide-link">
+                    <a href="" id="url" class="hide">Читать подробнее...</a>
+                </div>
+                <span id="loading">Минуточку... Скоро здесь что то появится!<br>
+                    <i class="fa fa-snowflake-o fa-2x" id="loading" aria-hidden="true"></i>
+                </span>
             </div>
             <div class="sl-navigation t-c">
                 <div id="tringle-l"></div>
-                <div class="round"></div>
-                <div class="round"></div>
-                <div class="round"></div>
                 <div id="tringle-r"></div>
             </div>
         </div>

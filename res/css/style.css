@@ -357,11 +357,16 @@ li {
 
 .desktop-menu input {
     width: 100px;
-    height:
 }
 
 #slide {
     height: 500px;
+}
+
+#slide-discription {
+    color: #fff;
+    word-break: break-word;
+    text-overflow: ellipsis;
 }
 
 .banner {
@@ -377,9 +382,15 @@ li {
     width: 15px;
     height: 15px;
     border-radius: 10px;
+    margin: 0px 5px 0px 0px;
     background: #fff;
     display: inline-block;
-    transition: background 1s;
+    transition: 1s background;
+}
+
+.round-active {
+    box-shadow: 0 0 5px #009dff;
+    background: #009dff;
 }
 
 #tringle-r {
@@ -405,7 +416,6 @@ li {
 .round:hover {
     box-shadow: 0 0 5px #009dff;
     background: #009dff;
-    transition: background 1s;
 }
 
 #tringle-r:hover {
@@ -420,10 +430,6 @@ li {
 
 .sl-navigation {
     position: relative;
-}
-
-.sl-nav {
-    display: ;
 }
 
 .viget {
@@ -502,6 +508,16 @@ li {
     .viget:nth-of-type(4) {
         display: block;
     }
+
+    .left {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    
+    .right {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
 }
 
 #yt-v {
@@ -555,4 +571,8 @@ li {
     width: 100%;
     height: 100%;
     box-shadow: 0 0 5px #fff;
+}
+
+.hide {
+    display: none;
 }
